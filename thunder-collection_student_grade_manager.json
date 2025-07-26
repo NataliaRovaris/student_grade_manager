@@ -1,0 +1,74 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "student_grade_manager",
+    "collectionId": "1b8ec21e-d1c7-4149-a115-8fa897eb182a",
+    "dateExported": "2025-07-26T22:39:16.349Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "7d028f43-70a0-49bc-8af5-b24e94d3ad26",
+            "colId": "1b8ec21e-d1c7-4149-a115-8fa897eb182a",
+            "containerId": "",
+            "name": "localhost:3000/grades",
+            "url": "http://localhost:3000/grades",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-07-26T21:19:08.512Z",
+            "modified": "2025-07-26T22:34:41.497Z",
+            "headers": []
+        },
+        {
+            "_id": "17fcda18-d77f-4bc2-8dab-0dada87112e1",
+            "colId": "1b8ec21e-d1c7-4149-a115-8fa897eb182a",
+            "containerId": "",
+            "name": "localhost:3000/grades Copy",
+            "url": "http://localhost:3000/grades",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2025-07-26T21:20:00.334Z",
+            "modified": "2025-07-26T21:21:45.696Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"studentName\": \"Julia\",\r\n  \"subject\": \"English\",\r\n  \"grade\": \"10\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3348d65a-56cf-4ff7-b095-7792f844ba41",
+            "colId": "1b8ec21e-d1c7-4149-a115-8fa897eb182a",
+            "containerId": "",
+            "name": "localhost:3000/grades Copy Copy",
+            "url": "http://localhost:3000/grades",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-07-26T21:31:45.384Z",
+            "modified": "2025-07-26T22:35:19.487Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"Thiago Lima\",\n  \"subject\": \"English\",\n  \"grade\": \"8\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7c21ca5a-007d-4c90-a202-81fc5cb9ec14",
+            "colId": "1b8ec21e-d1c7-4149-a115-8fa897eb182a",
+            "containerId": "",
+            "name": "localhost:3000/grades Copy Copy Copy",
+            "url": "http://localhost:3000/grades",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-07-26T22:35:41.299Z",
+            "modified": "2025-07-26T22:36:04.934Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"studentName\": \"Thiago Lima\",\n  \"subject\": \"English\",\n  \"grade\": \"8\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "Wh4Swz2mm8hymaqhb6kNJXeTmaoFl6xQf4jz41yikOtz4RKcjRT5FUzyA6DCfO9no3uaUYwGot2SUxLr94J9BQ"
+}
